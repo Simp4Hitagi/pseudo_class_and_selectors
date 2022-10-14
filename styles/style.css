@@ -1,0 +1,44 @@
+/* Pseudo-class */
+
+/* selects first item in list */
+div ul li:first-child {
+    background-color: aquamarine;
+}
+/* selects last item in list  */
+div ul li:last-child {
+  background-color: green;
+}
+
+/* link before mouse click */
+a:link {
+    background-color: red;
+  }
+  
+  /*link after mouse click */
+  a:visited {
+    background-color: yellow;
+  }
+  
+  /* mouse hovering over link */
+  a:hover {
+    background-color: blueviolet;
+  }
+  
+  /* when link is selected */
+  a:active {
+    background-color: pink;
+  }
+
+  /* pseudo anchor tags with HTML class */
+.h3:hover {
+  background-color: blue;
+}
+
+  .images ul {
+    display: inline-flex;
+    border: 20em;
+    min-height: 50vh;
+    align-content: center;
+    list-style: none;
+    margin: 30px auto;
+  }
